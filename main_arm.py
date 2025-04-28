@@ -467,6 +467,8 @@ def main():
 
     # Create the Tkinter root window and run the visualizer application
     root = tk.Tk()
+    root.geometry("1920x1680+0+-200")
+
     app = Visualizer(root, args)
     root.mainloop()
 
